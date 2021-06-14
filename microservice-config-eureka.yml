@@ -13,17 +13,17 @@ eureka:
     instance: 
         hostname: eureka6001.com 
     client: 
-        registerWithEureka: false 
-        fetchRegistry: false 
+        registerWithEureka: false
+        fetchRegistry: false
         serviceUrl: 
-            defaultZone: http://eureka6001.com:6001/eureka/ 
+            defaultZone: http://eureka6001.com:6001/eureka/
     server: 
         enable-self-preservation: false
  --- 
 server: 
     port: 6001
 spring: 
-    profiles: prod¯å¢ƒ 
+    profiles: prod¢ƒ 
     application: 
         name: microservice-config-eureka 
 
